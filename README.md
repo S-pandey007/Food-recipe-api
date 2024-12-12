@@ -1,6 +1,4 @@
-Here’s an example of a **README.md** file code for your Recipe Search Application project:
 
-```markdown
 # Recipe Search Application
 
 ## Overview
