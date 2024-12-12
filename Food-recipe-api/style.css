@@ -1,0 +1,563 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.row {
+    margin: 0;
+}
+
+/* Header row */
+#head-row {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+}
+
+#head-row .text-line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#head-row h6, #head-row a {
+    margin: 0 10px;
+}
+
+/* Navigation */
+#nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+#logo img {
+    height: 50px;
+}
+
+#nav-option {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+#nav-option li {
+    margin: 0 10px;
+}
+
+#nav-option li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+#nav-bar-search-icon {
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+/* Header content */
+#head-content {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 40px 0;
+}
+
+#head-content #text-01 {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#head-content #text-02 {
+    display: block;
+    font-size: 2.5rem;
+    color: #333;
+}
+
+/* Slider */
+#pic-container-slider video {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Circle images */
+#circle-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.cir-img {
+    flex: 0 0 150px;
+    margin: 10px;
+    text-align: center;
+}
+
+.cir-img img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.cir-img h3 {
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+/* Search bar */
+#searchBar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+#search-bar {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+#search-bar .form-control {
+    border-radius: 0;
+    border: 1px solid #ddd;
+}
+
+#search-icon {
+    margin-left: -30px;
+    cursor: pointer;
+}
+
+#mid-text h3 {
+    margin: 0 20px;
+}
+
+#view-all .btn {
+    background-color: #007bff;
+    border: none;
+    border-radius: 0;
+}
+
+/* Data container */
+#data-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.data-item {
+    flex: 0 0 300px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 10px;
+}
+
+.data-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.data-item h2 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.view-btn {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Suggestions */
+#suggestion-recpie-text {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+#suggestion-recpie-text div {
+    margin: 0 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#suggestion-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+
+#suggestion-container-pic {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#suggestion-container-pic div {
+    flex: 0 0 200px;
+    margin: 10px;
+    text-align: center;
+}
+
+#suggestion-container-pic img {
+    width: 100%;
+    height: auto;
+}
+
+.sugg-title h5 {
+    margin: 10px 0;
+}
+
+/* Video section */
+#video-section {
+    text-align: center;
+    padding: 40px 0;
+}
+
+#video-head {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#video-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.video-con {
+    flex: 0 0 300px;
+    margin: 10px;
+    text-align: center;
+}
+
+.video-con video {
+    width: 100%;
+    height: auto;
+}
+
+.video-title {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.video-info {
+    font-size: 0.9rem;
+    color: #777;
+}
+
+/* Footer */
+.kilimanjaro_area {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+    text-align: left;
+}
+
+.foo_top_header_one {
+    background-color: #fff;
+    padding: 20px 0;
+}
+
+.kilimanjaro_part {
+    margin-bottom: 20px;
+}
+
+.kilimanjaro_part h5 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.kilimanjaro_part p {
+    font-size: 0.9rem;
+    color: #777;
+}
+
+.kilimanjaro_widget, .kilimanjaro_social_links {
+    list-style: none;
+    padding: 0;
+}
+
+.kilimanjaro_widget li, .kilimanjaro_social_links li {
+    margin-bottom: 10px;
+}
+
+.kilimanjaro_widget li a, .kilimanjaro_social_links li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.kilimanjaro_social_links li a i {
+    margin-right: 10px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    #nav-option {
+        display: none;
+    }
+
+    #nav-bar-search-icon {
+        display: block;
+    }
+
+    #head-content #text-01, #head-content #text-02 {
+        font-size: 1.2rem;
+    }
+
+    .cir-img {
+        flex: 0 0 100px;
+    }
+
+    .cir-img img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .cir-img h3 {
+        font-size: 0.8rem;
+    }
+
+    #search-bar {
+        flex: 1;
+    }
+
+    #mid-text h3 {
+        font-size: 1rem;
+    }
+
+    #view-all .btn {
+        padding: 5px 10px;
+    }
+
+    .data-item {
+        flex: 0 0 100%;
+        margin: 10px 0;
+    }
+
+    #suggestion-recpie-text {
+        flex-direction: column;
+    }
+
+    #suggestion-recpie-text div {
+        margin: 10px 0;
+    }
+
+    #suggestion-container-pic div {
+        flex: 0 0 100%;
+        margin: 10px 0;
+    }
+
+    .video-con {
+        flex: 0 0 100%;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 576px) {
+    #head-row .text-line {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #head-row h6, #head-row a {
+        margin: 5px 0;
+    }
+
+    #nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #logo {
+        margin-bottom: 10px;
+    }
+
+    #head-content #text-01, #head-content #text-02 {
+        font-size: 1rem;
+    }
+
+    .cir-img {
+        flex: 0 0 80px;
+    }
+
+    .cir-img img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .cir-img h3 {
+        font-size: 0.6rem;
+    }
+
+    #mid-text h3 {
+        font-size: 0.8rem;
+    }
+
+    #view-all .btn {
+        padding: 5px;
+    }
+
+    .data-item {
+        flex: 0 0 100%;
+        margin: 5px 0;
+    }
+
+    #suggestion-recpie-text {
+        flex-direction: column;
+    }
+
+    #suggestion-recpie-text div {
+        margin: 5px 0;
+    }
+
+    #suggestion-container-pic div {
+        flex: 0 0 100%;
+        margin: 5px 0;
+    }
+
+    .video-con {
+        flex: 0 0 100%;
+        margin: 5px 0;
+    }
+}
+
+/* after search  */
+
+#data-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    background-color: white;
+    border-radius: 40px;
+}
+#main-close-btn {
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+.data-item {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.img-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.data-info h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.view-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.view-btn:hover {
+    background-color: #0056b3;
+}
+
+
+#close-btn{
+    font-size: larger;
+    cursor: pointer;
+    padding: 5px;
+}
+
+/* view recipe */
+.view-recipe-data {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 800px;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    z-index: 1000;
+    overflow-y: auto; /* Add this for better scrolling on smaller screens */
+    max-height: 90vh; /* Add this for better scrolling on smaller screens */
+}
+
+.view-recipe-data .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.recipe-details {
+    margin-top: 20px;
+}
+
+.recipe-details ul {
+    list-style: none;
+    padding: 0;
+}
+
+.recipe-details ul li {
+    padding: 5px 0;
+}
+
+/* Add responsiveness for smaller screens */
+@media (max-width: 600px) {
+    #search-bar .form-control {
+        width: 150px;
+    }
+
+    #view-all .btn {
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+
+    .data-item {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
